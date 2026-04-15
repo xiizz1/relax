@@ -18,7 +18,7 @@
 
 <div class="grid">
 
-  <div class="sound-card" onclick="toggle(this)">
+  <div class="sound-card" onclick="toggle(this)" data-src="rain.mp3">
     <div class="icon-wrap">
       <svg viewBox="0 0 24 24"><path d="M3 10a7 7 0 0 1 14 0"/><path d="M1 13h18"/><line x1="5" y1="17" x2="4" y2="21"/><line x1="10" y1="17" x2="9" y2="21"/><line x1="15" y1="17" x2="14" y2="21"/></svg>
     </div>
@@ -26,7 +26,7 @@
     <div class="slider-wrap"><input type="range" min="0" max="100" value="30" oninput="updateSlider(this)"></div>
   </div>
 
-  <div class="sound-card" onclick="toggle(this)">
+  <div class="sound-card" onclick="toggle(this)" data-src="thunder.mp3">
     <div class="icon-wrap">
       <svg viewBox="0 0 24 24"><path d="M4 9a7 7 0 0 1 13.5-2"/><path d="M2 13h12l-4 8 6-5H8l4-8z"/></svg>
     </div>
@@ -34,7 +34,7 @@
     <div class="slider-wrap"><input type="range" min="0" max="100" value="50" oninput="updateSlider(this)"></div>
   </div>
 
-  <div class="sound-card" onclick="toggle(this)">
+  <div class="sound-card" onclick="toggle(this)" data-src="waves.mp3">
     <div class="icon-wrap">
       <svg viewBox="0 0 24 24"><path d="M2 12c1.5-3 3-3 4.5 0s3 3 4.5 0 3-3 4.5 0 3 3 4.5 0"/><path d="M2 17c1.5-3 3-3 4.5 0s3 3 4.5 0 3-3 4.5 0 3 3 4.5 0"/></svg>
     </div>
@@ -42,7 +42,7 @@
     <div class="slider-wrap"><input type="range" min="0" max="100" value="65" oninput="updateSlider(this)"></div>
   </div>
 
-  <div class="sound-card" onclick="toggle(this)">
+  <div class="sound-card" onclick="toggle(this)" data-src="wind.mp3">
     <div class="icon-wrap">
       <svg viewBox="0 0 24 24"><path d="M5 8h11a3 3 0 1 0-3-3"/><path d="M3 12h16"/><path d="M5 16h8a3 3 0 1 1-3 3"/></svg>
     </div>
@@ -50,7 +50,7 @@
     <div class="slider-wrap"><input type="range" min="0" max="100" value="20" oninput="updateSlider(this)"></div>
   </div>
 
-  <div class="sound-card" onclick="toggle(this)">
+  <div class="sound-card" onclick="toggle(this)" data-src="fire.mp3">
     <div class="icon-wrap">
       <svg viewBox="0 0 24 24"><path d="M12 2c0 4-4 6-4 10a4 4 0 0 0 8 0c0-4-4-6-4-10z"/><path d="M12 12c0 2-1.5 3-1.5 4.5a1.5 1.5 0 0 0 3 0C13.5 15 12 14 12 12z"/></svg>
     </div>
@@ -58,15 +58,15 @@
     <div class="slider-wrap"><input type="range" min="0" max="100" value="40" oninput="updateSlider(this)"></div>
   </div>
 
-  <div class="sound-card" onclick="toggle(this)">
+  <div class="sound-card" onclick="toggle(this)" data-src="birds.mp3">
     <div class="icon-wrap">
       <svg viewBox="0 0 24 24"><path d="M4 14s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="14"/></svg>
     </div>
     <span class="label">Birds</span>
     <div class="slider-wrap"><input type="range" min="0" max="100" value="35" oninput="updateSlider(this)"></div>
   </div>
-
-  <div class="sound-card" onclick="toggle(this)">
+ 
+  <div class="sound-card" onclick="toggle(this)" data-src="crickets.mp3">
     <div class="icon-wrap">
       <svg viewBox="0 0 24 24"><path d="M6 6c0 0 2-2 6-2s6 2 6 2"/><path d="M4 10h16"/><path d="M7 10v6l-2 4"/><path d="M17 10v6l2 4"/><path d="M9 16h6"/><circle cx="12" cy="8" r="2"/></svg>
     </div>
@@ -74,15 +74,15 @@
     <div class="slider-wrap"><input type="range" min="0" max="100" value="25" oninput="updateSlider(this)"></div>
   </div>
 
-  <div class="sound-card" onclick="toggle(this)">
+  <div class="sound-card" onclick="toggle(this)" data-src="cafe.mp3">
     <div class="icon-wrap">
       <svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4z"/><line x1="6" y1="2" x2="6" y2="5"/><line x1="10" y1="2" x2="10" y2="5"/><line x1="14" y1="2" x2="14" y2="5"/></svg>
     </div>
-    <span class="label">Café</span>
+    <span class="label">Cafe</span>
     <div class="slider-wrap"><input type="range" min="0" max="100" value="55" oninput="updateSlider(this)"></div>
   </div>
 
-  <div class="sound-card" onclick="toggle(this)">
+  <div class="sound-card" onclick="toggle(this)" data-src="bowl.mp3">
     <div class="icon-wrap">
       <svg viewBox="0 0 24 24"><path d="M4 11a8 8 0 0 0 16 0"/><line x1="2" y1="11" x2="22" y2="11"/><path d="M12 3v3"/><line x1="6" y1="20" x2="18" y2="20"/></svg>
     </div>
@@ -90,13 +90,60 @@
     <div class="slider-wrap"><input type="range" min="0" max="100" value="10" oninput="updateSlider(this)"></div>
   </div>
 
-  <div class="sound-card" onclick="toggle(this)">
+  <div class="sound-card" onclick="toggle(this)" data-src="noise.mp3">
     <div class="icon-wrap">
       <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><line x1="8" y1="8" x2="8" y2="8"/><line x1="12" y1="8" x2="12" y2="8"/><line x1="16" y1="8" x2="16" y2="8"/><line x1="10" y1="12" x2="10" y2="12"/><line x1="14" y1="12" x2="14" y2="12"/><line x1="12" y1="16" x2="12" y2="16"/></svg>
     </div>
     <span class="label">Noise</span>
     <div class="slider-wrap"><input type="range" min="0" max="100" value="45" oninput="updateSlider(this)"></div>
   </div>
+
+
+
+
+
+ <div class="sound-card" onclick="toggle(this)" data-src="train.mp3">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="12" rx="3"/><path d="M6 16v3"/><path d="M18 16v3"/><path d="M2 10h20"/><circle cx="7" cy="19" r="1"/><circle cx="17" cy="19" r="1"/><path d="M6 7h4"/><path d="M14 7h4"/></svg>
+  </div>
+  <span class="label">Train</span>
+  <div class="slider-wrap"><input type="range" min="0" max="100" value="0" oninput="updateSlider(this)"></div>
+</div>
+
+<div class="sound-card" onclick="toggle(this)" data-src="ocean.mp3">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 24 24"><path d="M2 8c1.5-3 3-3 4.5 0s3 3 4.5 0 3-3 4.5 0 3 3 4.5 0"/><path d="M2 13c1.5-3 3-3 4.5 0s3 3 4.5 0 3-3 4.5 0 3 3 4.5 0"/><path d="M2 18c1.5-3 3-3 4.5 0s3 3 4.5 0 3-3 4.5 0 3 3 4.5 0"/></svg>
+  </div>
+  <span class="label">Ocean</span>
+  <div class="slider-wrap"><input type="range" min="0" max="100" value="0" oninput="updateSlider(this)"></div>
+</div>
+
+<div class="sound-card" onclick="toggle(this)" data-src="keyboard.mp3">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><line x1="6" y1="10" x2="6" y2="10"/><line x1="10" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="14" y2="10"/><line x1="18" y1="10" x2="18" y2="10"/><line x1="6" y1="14" x2="6" y2="14"/><line x1="10" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="14" y2="14"/><line x1="18" y1="14" x2="18" y2="14"/><line x1="8" y1="17" x2="16" y2="17"/></svg>
+  </div>
+  <span class="label">Keyboard</span>
+  <div class="slider-wrap"><input type="range" min="0" max="100" value="0" oninput="updateSlider(this)"></div>
+</div>
+
+<div class="sound-card" onclick="toggle(this)" data-src="clock.mp3">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/><line x1="12" y1="3" x2="12" y2="1"/><line x1="12" y1="23" x2="12" y2="21"/><line x1="3" y1="12" x2="1" y2="12"/><line x1="23" y1="12" x2="21" y2="12"/></svg>
+  </div>
+  <span class="label">Clock</span>
+  <div class="slider-wrap"><input type="range" min="0" max="100" value="0" oninput="updateSlider(this)"></div>
+</div>
+
+<div class="sound-card" onclick="toggle(this)" data-src="dog.mp3">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 24 24"><path d="M10 5.5C10 4 11 3 12.5 3S15 4 15 5.5c0 1-0.5 1.8-1.2 2.3"/><path d="M6 10c0 0 1-3 4-3h4c3 0 4 3 4 3v4c0 2-1.5 4-4 4h-4c-2.5 0-4-2-4-4v-4z"/><line x1="9" y1="17" x2="8" y2="21"/><line x1="15" y1="17" x2="16" y2="21"/><circle cx="10" cy="12" r="0.8" fill="currentColor"/><circle cx="14" cy="12" r="0.8" fill="currentColor"/><path d="M10 14.5c0.5 0.8 3 0.8 4 0"/></svg>
+  </div>
+  <span class="label">Dog</span>
+  <div class="slider-wrap"><input type="range" min="0" max="100" value="0" oninput="updateSlider(this)"></div>
+</div>
+
+
+
 
 </div>
 
